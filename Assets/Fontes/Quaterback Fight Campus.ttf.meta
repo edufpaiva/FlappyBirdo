@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 45bae044396a6a749b5b8087df52e175
+timeCreated: 1493349482
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Quaterback Fight Campus
+  fontNames:
+  - Quaterback Fight Campus
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

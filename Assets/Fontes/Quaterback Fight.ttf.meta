@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: cb48d56a39590304c956b3e83f790be9
+timeCreated: 1493349482
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Quaterback Fight
+  fontNames:
+  - Quaterback Fight
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
