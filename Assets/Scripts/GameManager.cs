@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour {
 	public GameObject pontuacao;
 	private int pontos = 0;
 
+    private int hScore = 0;
+
 
 
 	void Awake(){
@@ -45,6 +47,10 @@ public class GameManager : MonoBehaviour {
 		if (pontuacao == null) {
 			pontuacao = GameObject.FindGameObjectWithTag ("Pontuacao");
 		}
+
+        if(Input.GetKeyDown(KeyCode.Q)){
+            PlayerPrefs.SetInt("hScore", 0);
+        }
 	}
 
 	public void setPlayerVivo(bool vivo){
@@ -92,7 +98,17 @@ public class GameManager : MonoBehaviour {
 		pontos++;
 	}
 
+    public int checkHighScore() {
 
+        hScore = PlayerPrefs.GetInt("hScore", 0);
+        if(PlayerPrefs.GetInt("hScore", 0) < pontos) {
+            PlayerPrefs.SetInt("hScore", pontos);
+            hScore = pontos;
+        }
+
+
+        return hScore;
+    }
 
 
 
